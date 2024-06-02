@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:minHeight="48dp" /> <!-- Ajuste o valor conforme necessário -->
+
+    <EditText
+        android:id="@+id/brandEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca"
+        android:minHeight="48dp" /> <!-- Ajuste o valor conforme necessário -->
+
+    <EditText
+        android:id="@+id/colorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cor"
+        android:minHeight="48dp" /> <!-- Ajuste o valor conforme necessário -->
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" /> <!-- Ajuste o valor conforme necessário -->
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+</LinearLayout>
